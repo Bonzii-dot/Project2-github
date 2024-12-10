@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Greg P French</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+    <header>
+        <h1 class="logo-text">Greg P French</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Contact Greg</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="services">Service:</label>
+                <select id="services" name="services">
+                    <option value="photography">Photography</option>
+                    <option value="consulting">Consulting</option>
+                </select>
+
+                <p>Preferred Contact Method:</p>
+                <input type="radio" id="email" name="contact-method" value="email" required>
+                <label for="email">Email</label>
+                <input type="radio" id="phone" name="contact-method" value="phone" required>
+                <label for="phone">Phone</label>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+        <section>
+            <h3>Rates</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Service</th>
+                        <th>Rate</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Photography Session</td>
+                        <td>$200/hour</td>
+                    </tr>
+                    <tr>
+                        <td>Consultation</td>
+                        <td>$100/hour</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Greg P French Portfolio. Chris Brinkerhoff.</p>
+    </footer>
+</body>
+
+</html>
